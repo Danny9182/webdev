@@ -4774,7 +4774,7 @@ html.theme-light body.bd-minimal #app-mount::before {
     width: 100%;
     height: 2px;
     background: var(--accent);
-    box-shadow: 0 0 12px var(--accent);
+    box-shadow: 0 0 16px 1px var(--accent);
     animation: callPulse 2.25s ease infinite;
     transform-origin: left;
     pointer-events: none;
@@ -5792,8 +5792,9 @@ html.theme-light body.bd-minimal #app-mount::before {
 }
 
 .container-1giJp5 {
+    /*
     height: 55px;
-    /*background: var(--colour1blk) !important;
+    background: var(--colour1blk) !important;
     box-shadow: 0 0 12px var(--colour1blk);
     border-bottom: 2px solid var(--accent);*/
     order:-1;
@@ -8212,7 +8213,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 /*8.l. Mentions and Channel Links*/
 
 .wrapper-3WhCwL {
-    color:var(--accent) !important;
+    /*color:var(--accent) !important;*/
     background:rgba(255,255,255,0.07);
     /*box-shadow:0 2px 6px rgba(0, 0, 0, 0.6);*/
     padding: 2px 3px;
@@ -12838,7 +12839,6 @@ body .bd-toasts {
 }
 
 .peopleListItem-2nzedh {
-    border:none;
     position:relative;
     border-radius:0 !important;
     background:rgba(255,255,255,0.03);
@@ -14450,7 +14450,41 @@ border-bottom: 2px solid var(--hover);
 .jumpButton-JkYoYK {
     right: 25px;
     top: 16px;
+}
+
+/*unread dm lil fix*/
+.bar-30k2ka {
+    top: 12px;
 } 
+
+/*display less shit*/
+[aria-label="Send a gift"], [aria-label="Open GIF picker"] {
+    display: none;
+}
+
+/*new msgs bar*/
+.newMessagesBar-265mhP {
+    background-color: var(--colour1);
+}
+
+/*anti shit lib*/
+.supporter-Z3FfwL.hasBadge-4rT8_u:not(.customSupporter-thxL4U) .badge-7R_W3s {
+    display: none !important;
+}
+
+/*fucking fix*/
+#pluginNotice {
+    z-index: 999;
+    background: #0089ff;
+    text-align: center;
+    pointer-events: all;
+}
+#pluginNotice span {
+    position: relative;
+    top: 10px;
+    color: white;
+}
+
 
 
 
