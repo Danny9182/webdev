@@ -14472,19 +14472,6 @@ border-bottom: 2px solid var(--hover);
     display: none !important;
 }
 
-/*fucking fix*/
-#pluginNotice {
-    z-index: 999;
-    background: #0089ff;
-    text-align: center;
-    pointer-events: all;
-}
-#pluginNotice span {
-    position: relative;
-    top: 10px;
-    color: white;
-}
-
 
 
 
