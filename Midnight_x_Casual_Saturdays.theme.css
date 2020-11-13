@@ -5225,7 +5225,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 /*5.b. Channel Guild Header*/
 
-#app-mount .header-2o-2hj {
+#app-mount .header-2V-4Sw {
     /*box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07);*/
     height: 40px;
     border-bottom: 2px solid var(--hover);
@@ -5234,12 +5234,12 @@ html.theme-light body.bd-minimal #app-mount::before {
     overflow: hidden;
 }
 
-.header-2o-2hj:hover::before {
+.header-2V-4Sw:hover::before {
     opacity: .25;
     transform: scale(16);
 }
 
-.header-2o-2hj::before {
+.header-2V-4Sw::before {
     content: '';
     position: absolute;
     pointer-events: none;
@@ -5255,16 +5255,16 @@ html.theme-light body.bd-minimal #app-mount::before {
     transition: fadeIn .25s ease, transform .5s ease;
 }
 
-.header-2o-2hj:active::before {
+.header-2V-4Sw:active::before {
     background: var(--accent);
 }
 
-.name-3YKhmS {
+.name-1jkAdW {
     font-weight: 500;
     font-size:var(--size1);
 }
 
-.header-2o-2hj::after {
+.header-2V-4Sw::after {
     font-family: "Segoe MDL2 Assets";
     font-size: var(--sizelg);
     content: "";
@@ -5288,11 +5288,11 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 /*5.b.a. Server Banners*/
 
-.animatedContainer-1pJv5C {
+.animatedContainer-1NSq4T {
     -webkit-mask: linear-gradient(black 50%, transparent);
 }
 
-.bannerImage-1jOskm {
+.bannerImage-3KhIJ6 {
     width: 100%;
     margin-top: 40px
 }
@@ -5473,7 +5473,7 @@ html.theme-light body.bd-minimal #app-mount::before {
     margin-top:5px;
 }
 
-.content-3at_AU {
+.content-1x5b-n  {
     border-radius: 0;
     transition: 150ms all ease;
     background: rgba(255, 255, 255, .04);
@@ -5485,13 +5485,14 @@ html.theme-light body.bd-minimal #app-mount::before {
     border-left: 1px solid rgba(255, 255, 255, .08);
 }
 
-.wrapper-1ucjTd:hover .content-3at_AU {
+
+.containerDefault--pIXnN:hover .content-1x5b-n  {
     background-image: linear-gradient(to right, rgba(255, 255, 255, .15), rgba(255, 255, 255, .06));
     box-shadow: 0 0 2px 2px rgba(255, 255, 255, .08);
     border-left: 3px solid rgba(255, 255, 255, .5);
 }
 
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+.containerDefault--pIXnN.selected-3LIHYU .content-1x5b-n {
     background-image: linear-gradient(to right, var( --colour1-tr2), rgba(255, 255, 255, 0.05));
     border-radius: 0;
     box-shadow: 0 0 10px 1px var(--accent);
@@ -5500,15 +5501,16 @@ html.theme-light body.bd-minimal #app-mount::before {
     border-left: 4px solid rgba(255, 255, 255, .8);
 }
 
-.modeMuted-3osy7j {
+.modeMuted-onO3r- {
     opacity: .5;
 }
 
-#app-mount .modeSelected-1zApJ_ .icon-1_QxNX,
+#app-mount .modeSelected-1zApJ_ .icon-1DeIlz,
 .modeSelected-1zApJ_ .actionIcon-2Hi9ZG,
 .wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg,
-.wrapper-1ucjTd.modeUnread-1zpFdA:hover .name-3_Dsmg {
-    color: #fff;
+.wrapper-1ucjTd.modeUnread-1zpFdA:hover .name-3_Dsmg,.modeUnread-1qO3K1 .icon-1DeIlz {
+    color: #fff !important;
+    fill: #fff !important;
 }
 
 .wrapper-1ucjTd.modeLocked-SZJhTy .children-Bmpf2Q {
@@ -5533,7 +5535,7 @@ html.theme-light body.bd-minimal #app-mount::before {
     height: 18px;
 }
 
-.actionIcon-2Hi9ZG {
+.actionIcon-PgcMM2 {
     width:14px;
     height:14px;
 }
@@ -5546,12 +5548,12 @@ html.theme-light body.bd-minimal #app-mount::before {
     display:none;
 }
 
-.wrapper-1ucjTd:not(.modeSelected-1zApJ_):hover .icon-1_QxNX {
+.wrapper-1ucjTd:not(.modeSelected-346R90):hover .icon-1_QxNX {
     color: #dcddde;
 }
 
-.name-3_Dsmg,
-.wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg {
+.name-23GUGE,
+.modeUnread-1qO3K1 .name-23GUGE {
     color: rgba(255, 255, 255, .6);
 }
 
@@ -5560,41 +5562,47 @@ html.theme-light body.bd-minimal #app-mount::before {
     height: 28px;
 }
 
-#app-mount .wrapper-1ucjTd:hover .name-3_Dsmg {
+#app-mount .containerDefault--pIXnN:hover .name-23GUGE {
     color: #f6f6f6;
 }
 
-.name-3_Dsmg {
+.name-23GUGE {
     transition: 150ms ease;
     font-size:var(--size1);
 }
 
-.wrapper-1ucjTd:not(.modeSelected-1zApJ_):hover .name-3_Dsmg {
+..containerDefault--pIXnN:not(.modeSelected-346R90):hover .name-23GUGE {
     padding-left: 5px;
 }
 
-.unread-3zKkbm {
+.unread-2lAfLh {
     margin-top: 0;
     background: var(--colour1enh);
     border-radius: 0;
     top: 38%;
 }
 
-.full-motion .unread-3zKkbm {
+.full-motion .unread-2lAfLh {
     animation:unread 2s ease infinite;
 }
 
-.unread-3zKkbm {
+.unread-2lAfLh {
     top: 0;
     left: 0px;
     width: 4px;
     height: 100%;
     border-radius: 0;
     transition: 150ms ease opacity;
+    margin-top: -2px;
 }
 
-.modeUnread-1zpFdA:hover .unread-3zKkbm {
+.modeUnread-1qO3K1:hover .unread-2lAfLh {
     opacity: 0;
+}
+
+.icon-1DeIlz,
+.modeSelected-346R90 .icon-1DeIlz{
+    color: var(--colour1enh);
 }
 
 .containerDragAfter-3TEhpe:before,
@@ -5606,6 +5614,12 @@ html.theme-light body.bd-minimal #app-mount::before {
     left:0;
     box-shadow:0 0 12px 1px var(--lv1);
 }
+
+.containerDefault--pIXnN {
+    margin-top: -1px;
+}
+
+
 
 .category-2haXBH,
 .channelName-2wrHHc,
@@ -5622,18 +5636,22 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 /*5.e. Guild Voice Channels*/
 
-.list-2bwCXU {
+.avatarSpeaking-2IGMRN {
+    border: var(--colour1enh) 2px solid;
+}
+
+.list-2luk8a {
     padding-left:0;
     margin-top:6px;
 }
 
-.listDefault-2y5Z9D .clickable-23RaYz .content-3xS9Lh {
+.list-2luk8a {
     border-radius: 0;
     transition: 150ms all ease;
     background: rgba(255, 255, 255, .04);
     margin-top: 3px;
     padding-bottom: 0;
-    height: 27px;
+    height: 30px;
     margin-left: 5px;
     margin-right: 5px;
     box-shadow: 0 0 2px 2px rgba(255, 255, 255, .06);
@@ -5641,29 +5659,29 @@ html.theme-light body.bd-minimal #app-mount::before {
     padding:0 8px;
 }
 
-.listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {
+.list-2luk8a:hover{
     background-image: linear-gradient(to right, rgba(255, 255, 255, .15), rgba(255, 255, 255, .06));
     box-shadow: 0 0 2px 2px rgba(255, 255, 255, .09);
     border-left: 2px solid rgba(255, 255, 255, .5);
 }
 
-.username-lm8y6T {
+.username-3KYl0N {
     font-size:var(--size1);
     transition:150ms ease;
     color:rgba(255, 255, 255, .6);
 }
 
-.listDefault-2y5Z9D .clickable-23RaYz:hover .username-lm8y6T {
+.list-2luk8a:hover .username-3KYl0N {
     color:#f6f6f6;
     padding-left:5px;
 }
 
-.listDefault-2y5Z9D .avatarContainer-2inGBK {
+.list-2luk8a .avatarContainer-28iYmV {
     margin:0;
     margin-right:6px;
 }
 
-.avatarContainer-2inGBK {
+.vatarContainer-28iYmV {
     border-radius:var(--user-roundness);
     width:18px;
     height:18px;
@@ -5702,16 +5720,16 @@ html.theme-light body.bd-minimal #app-mount::before {
     margin:0 12px;
 }
 
-#app-mount .containerDefault-3GGEv_ .collapsed-4WdoJ7 .name-IbjUBS {
+#app-mount .collapsed-2-tg8y .name-3l27Hl {
     color: rgba(255, 255, 255, .35);
     transition: 250ms color ease;
 }
 
-#app-mount .containerDefault-3GGEv_ .collapsed-4WdoJ7 {
+#app-mount .collapsed-2-tg8y {
     border-color: rgba(255, 255, 255, .25);
 }
 
-#app-mount .containerDefault-3GGEv_:hover .collapsed-4WdoJ7 .name-IbjUBS {
+#app-mount .collapsed-2-tg8y:hover .name-3l27Hl {
     color: rgba(255, 255, 255, .5);
 }
 
@@ -5730,22 +5748,22 @@ html.theme-light body.bd-minimal #app-mount::before {
     position:relative;
 }
 
-.containerDefault-3GGEv_ .icon-WnO6o2 {
+.containerDefault-3tr_sE .icon-2yIBmh {
     opacity: 0;
     transition: 350ms ease;
     right:0;
     left:unset;
 }
 
-.containerDefault-3GGEv_:hover .icon-WnO6o2 {
+.containerDefault-3tr_sE:hover .icon-2yIBmh{
     opacity: 1;
 }
 
-.collapsed-4WdoJ7 .icon-WnO6o2 {
+.collapsed-4WdoJ7 .icon-2yIBmh {
     transform:rotate(90deg);
 }
 
-#app-mount .name-IbjUBS {
+#app-mount .name-3l27Hl {
     text-align: left;
     color: rgba(255,255,255,0.9);
     font-size: var(--size2);
@@ -5755,25 +5773,25 @@ html.theme-light body.bd-minimal #app-mount::before {
     flex:unset;
 }
 
-.addButtonIcon-3u-3Hu,
+.addButtonIcon-2CbG1X ,
 .wrapper-KpKNwI .foreground-2W-aJk {
     opacity: 1;
 }
 
-.addButtonIcon-3u-3Hu {
+.addButtonIcon-2CbG1X {
     width:12px;
     height:12px;
 }
 
-.addButton-1BORro polygon {
+.addButtonIcon-2CbG1X polygon {
     fill: var(--interactive-normal);
 }
 
-#app-mount .containerDefault-3GGEv_ .collapsed-4WdoJ7 .addButton-1BORro polygon {
+#app-mount .containerDefault-3tr_sE .collapsed-4WdoJ7 .addButtonIcon-2CbG1X polygon {
     fill:rgba(255, 255, 255, .25);
 }
 
-#app-mount .containerDefault-3GGEv_ .collapsed-4WdoJ7:hover .addButton-1BORro polygon {
+#app-mount .containerDefault-3tr_sE .collapsed-4WdoJ7:hover .addButtonIcon-2CbG1X polygon {
     fill:rgba(255, 255, 255, .5);
 }
 
@@ -14615,3 +14633,4 @@ border-bottom: 2px solid var(--hover);
     /*Toasts*/
     
 }
+
