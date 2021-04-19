@@ -4770,7 +4770,7 @@ html.theme-light body.bd-minimal #app-mount::before {
     position: fixed;
     top: 59px;
     left: 0;
-    z-index: 101;
+    z-index: 0;
     width: 100%;
     height: 2px;
     background: var(--colour1str);
@@ -5229,6 +5229,7 @@ html.theme-light body.bd-minimal #app-mount::before {
     /*box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07);*/
     height: 40px;
     border-bottom: 2px solid var(--hover);
+    z-index: 0;
     box-sizing: border-box;
     background: none;
     overflow: hidden;
@@ -6532,6 +6533,18 @@ html.theme-light body.bd-minimal #app-mount::before {
     cursor: default;
 }
 
+@keyframes devtag {
+  0% {
+    box-shadow: 0 0 4px 1px #47ccad;
+  }
+  50% {
+    box-shadow: 0 0 14px 4px #47ccad;
+  }
+  100% {
+    box-shadow: 0 0 4px 1px #47ccad;
+  }
+}
+
 .avatar-1BDn8e[src*="288290878169284619"] + h2 .timestamp-3ZCmNB::before {
     content: 'Dev';
     text-transform: uppercase;
@@ -6553,6 +6566,7 @@ html.theme-light body.bd-minimal #app-mount::before {
     top: 50%;
     transform: translateY(-50%);
     cursor: default;
+    animation: devtag 2.5s linear infinite;
 }
 
 .avatar-1BDn8e + h2::after,
@@ -8110,7 +8124,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 /*removes typying bg*/
 .chat-3bRxxu form .typing-2GQL18 {
-	background: transparent;
+    background: transparent;
 }
 
 .full-motion .base-gE7OpD .cooldownWrapper-3joyFc {
@@ -8734,19 +8748,19 @@ html.theme-light body.bd-minimal #app-mount::before {
 }
 
 .accommodateScrollbar-21WtU7 .scroller-3BxosC {
-	padding: 0;
+    padding: 0;
 }
 
 .label-22pbtT {
-	margin-left: 5px;
+    margin-left: 5px;
 }
 
 .item-1tOPte {
-	border-left: 3px solid rgba(255, 255, 255, .2);
+    border-left: 3px solid rgba(255, 255, 255, .2);
 }
 
 .colorDefault-2K3EoJ.focused-3afm-j {
-	background-color: transparent !important;
+    background-color: transparent !important;
     background-image: linear-gradient(to right, rgba(255, 255, 255, .08), rgba(255, 255, 255, .02))!important;
 }
 
@@ -14292,17 +14306,17 @@ header + .peopleListItem-2nzedh {
 .app-1q1i1E.da-app,
 .typeWindows-1za-n7.withFrame-haYltI.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3.da-typeWindows.da-withFrame.da-titleBar.da-horizontalReverse.da-flex.da-directionRowReverse.da-justifyStart.da-alignStretch 
 {
-	background-color: rgba(0,0,0,0.5) !important;
+    background-color: rgba(0,0,0,0.5) !important;
 }
 
 /*logger fixes (not whole who cares)*/
 .cozy-3raOZG .markupRtl-26VWXC {
-	margin-left: 55px;
+    margin-left: 55px;
 }
 
 /*badges everywhere margin*/
 .badges-XRnWAp.badgesChat-f_cbR8.mini-g-JPgX {
-	left: 2px;
+    left: 2px;
 }
 
 /*bettertypyingusers*/
@@ -14467,13 +14481,13 @@ border-bottom: 2px solid var(--hover);
 }
 
 .jumpButton-JkYoYK {
-	right: 25px;
+    right: 25px;
     top: 16px;
 }
 
 /*unread dm lil fix*/
 .bar-30k2ka {
-	top: 12px;
+    top: 12px;
 } 
 
 /*display less shit*/
@@ -14483,12 +14497,12 @@ border-bottom: 2px solid var(--hover);
 
 /*new msgs bar*/
 .newMessagesBar-265mhP {
-	background-color: var(--colour1);
+    background-color: var(--colour1);
 }
 
 /*anti shit lib*/
 .supporter-Z3FfwL.hasBadge-4rT8_u:not(.customSupporter-thxL4U) .badge-7R_W3s {
-	display: none !important;
+    display: none !important;
 }
 
 /*mix lazy fix for voice*/
@@ -14702,12 +14716,48 @@ border-bottom: 2px solid var(--hover);
     left: -5px;
 }
 
+/* Mitigate discord desktop/web "crash/freeze" gif */
+[href$='tornadus.net/orange'] {
+    display: none;
+}
+
+.topic-TCb_qw.da-topic.expandable-9fI_e3.da-expandable {
+    max-width: 1140px;
+ }
+
+
+.inner-3nWsbo .comment-4IWttf {
+    top: 25px !important;
+    left: 128px !important;
+} 
+
+#EditUploadsEditButton {
+    margin-left: 265px;
+    margin-top: 3px;
+}
+
+.bd-addon-card.settings-closed {
+    background: rgba(25,25,25,0.55);
+}
+
+.bd-addon-header {
+    background: rgba(15,15,15,0.6) !important;
+}
+
+.styleFlexible-wGDiIL {
+    max-width: 188px !important;
+}
+
+
+
+
+
+
 
 
 /*og root*/
 :root {
 
-    /*--homeButtonImage: url('https://cdn.discordapp.com/attachments/689237629794910321/690968772630151199/green_heart.png'); /*home button img link (no transparent)*/
 
     --background: url('https://cdn.discordapp.com/attachments/689237629794910321/690973779836403752/casual_saturdays_with_bd_signature.png'); /* background link*/
 
@@ -14794,52 +14844,4 @@ border-bottom: 2px solid var(--hover);
     --rs-large-spacing: 0px;
     --rs-width: 2px;
     --rs-avatar-shape: 50%;
-}
-
-
-/* Midnight root */
-
-:root {
-    /*Primary
-    
-
-
-    --bg-opacity: 0.25;
-    --bg-fade: 80%;
-
-    /*Support for other themes
-    --mc: var(--accent);
-    --hc: var(--hover);
-    --main-color: var(--accent);
-    --hover-color: var(--hover);
-    --roundness: var(--user-roundness);
-    --lvl-bg-opacity:var(--bg-opacity);
-    --lvl-bg-fade:var(--bg-fade);   
-    --online:var(--success);
-    --idle:var(--caution);
-    --dnd:var(--danger);
-    --offline:var(--unavailable);
-    --invisible:var(--invisible);
-    --streaming:var(--twitch-purple);
-
-    /*Branding
-   
-
-    /*Discord Vars
-    --deprecated-store-bg: var(--lv1);  
-    --background-primary: var(--lv1);
-    --background-secondary: var(--lv1);
-    --background-secondary-alt:var(--lv1);
-    --background-tertiary: var(--lv1);
-    --channeltextarea-background:var(--lv1);
-    --background-modifier-active:transparent;
-
-    
-    /*Roundness*/
-
-
-
-
-    /*Toasts*/
-    
 }
