@@ -3325,7 +3325,7 @@ removing backgrounds */
 }
 
 
-/*new bd stuff*/
+/*new bd stuff
 .bd-switch.bd-switch-checked {
     background-color: var(--colour1);
 }
@@ -5321,7 +5321,7 @@ html.theme-light body.bd-minimal #app-mount::before {
     justify-content: center;
 }
 
-.container-3baos1 .wrapper-3t9DeA::before {
+.container-3baos1 .avatarWrapper-2yR4wp::before {
     content: '';
     width: 3px;
     height: 50px;
@@ -14758,7 +14758,21 @@ border-bottom: 2px solid var(--hover);
     color: var(--colour1str);
 }
 
+
+.layer-v9HyYc {
+    max-width: 424px;
+}
+
+.positionLayer-1KzSAt {
+    left: 1220px !important;
+}
+
+
 /*replies fix*/
+
+
+
+
 
 
 
