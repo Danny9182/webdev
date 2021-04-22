@@ -8126,7 +8126,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 /*removes typying bg*/
 .chat-3bRxxu form .typing-2GQL18 {
-    background: transparent;
+	background: transparent;
 }
 
 .full-motion .base-gE7OpD .cooldownWrapper-3joyFc {
@@ -8750,19 +8750,19 @@ html.theme-light body.bd-minimal #app-mount::before {
 }
 
 .accommodateScrollbar-21WtU7 .scroller-3BxosC {
-    padding: 0;
+	padding: 0;
 }
 
 .label-22pbtT {
-    margin-left: 5px;
+	margin-left: 5px;
 }
 
 .item-1tOPte {
-    border-left: 3px solid rgba(255, 255, 255, .2);
+	border-left: 3px solid rgba(255, 255, 255, .2);
 }
 
 .colorDefault-2K3EoJ.focused-3afm-j {
-    background-color: transparent !important;
+	background-color: transparent !important;
     background-image: linear-gradient(to right, rgba(255, 255, 255, .08), rgba(255, 255, 255, .02))!important;
 }
 
@@ -14308,17 +14308,17 @@ header + .peopleListItem-2nzedh {
 .app-1q1i1E,
 .typeWindows-1za-n7.withFrame-haYltI.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 
 {
-    background-color: rgba(0,0,0,0.5) !important;
+	background-color: rgba(0,0,0,0.5) !important;
 }
 
 /*logger fixes (not whole who cares)*/
 .cozy-3raOZG .markupRtl-26VWXC {
-    margin-left: 55px;
+	margin-left: 55px;
 }
 
 /*badges everywhere margin*/
 .badges-XRnWAp.badgesChat-f_cbR8.mini-g-JPgX {
-    left: 2px;
+	left: 2px;
 }
 
 /*bettertypyingusers*/
@@ -14483,13 +14483,13 @@ border-bottom: 2px solid var(--hover);
 }
 
 .jumpButton-JkYoYK {
-    right: 25px;
+	right: 25px;
     top: 16px;
 }
 
 /*unread dm lil fix*/
 .bar-30k2ka {
-    top: 12px;
+	top: 12px;
 } 
 
 /*display less shit*/
@@ -14499,12 +14499,12 @@ border-bottom: 2px solid var(--hover);
 
 /*new msgs bar*/
 .newMessagesBar-265mhP {
-    background-color: var(--colour1);
+	background-color: var(--colour1);
 }
 
 /*anti shit lib*/
 .supporter-Z3FfwL.hasBadge-4rT8_u:not(.customSupporter-thxL4U) .badge-7R_W3s {
-    display: none !important;
+	display: none !important;
 }
 
 /*mix lazy fix for voice*/
@@ -14769,7 +14769,9 @@ border-bottom: 2px solid var(--hover);
 
 
 /*replies fix*/
-
+.repliedTextContent-1R3vnK.markup-2BOw-j.messageContent-2qWWxC {
+    display: contents !important;
+}
 
 
 
