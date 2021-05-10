@@ -6540,7 +6540,7 @@ html.theme-light body.bd-minimal #app-mount::before {
     box-shadow: 0 0 4px 1px #47ccad;
   }
   50% {
-    box-shadow: 0 0 14px 4px #47ccad;
+    box-shadow: 0 0 10px 3px #47ccad;
   }
   100% {
     box-shadow: 0 0 4px 1px #47ccad;
@@ -14719,7 +14719,7 @@ border-bottom: 2px solid var(--hover);
 }
 
 /* Mitigate discord desktop/web "crash/freeze" gif */
-[href$='tornadus.net/orange'] {
+[href$='tornadus.net/orange'], [href$='https://giant.gfycat.com/SlipperyBelatedKudu.mp4'], [href$='https://gfycat.com/likableimmaculategoat'] {
     display: none;
 }
 
@@ -14767,8 +14767,10 @@ border-bottom: 2px solid var(--hover);
     left: 1220px !important;
 }
 
+.unicodeShortcut-15J8Ck, .inspector-S2gM3e.inspector-3LQtX9 {
+    background: var(--colour1drk);
+}
 
-/*replies fix*/
 .repliedTextContent-1R3vnK.markup-2BOw-j.messageContent-2qWWxC {
     display: contents !important;
 }
@@ -14783,7 +14785,7 @@ border-bottom: 2px solid var(--hover);
 :root {
 
 
-    --background: url('https://cdn.discordapp.com/attachments/689237629794910321/690973779836403752/casual_saturdays_with_bd_signature.png'); /* background link*/
+    --background: url('https://cdn.discordapp.com/attachments/574673752348950539/694735301545033788/casual_saturdays.png'); /* background link*/
 
     --user-background: url('https://cdn.discordapp.com/attachments/574673752348950539/694735301545033788/casual_saturdays.png');
 
@@ -14869,3 +14871,4 @@ border-bottom: 2px solid var(--hover);
     --rs-width: 2px;
     --rs-avatar-shape: 50%;
 }
+
